@@ -1,53 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Landing Page Design Using HTML & CSS</title>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <img src="../tt1/logo.jpeg" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="btn" id="btn1">Log In</button>
-            <button class="btn" id="btn2">Sign Up</button>
-        </div>
-        <div class="content">
-            <div class="text">
-            <h1>Be Young, Have Fun, <br> <span>HAVE A DRINK</span></h1>
-            <p>A soft drink is a drink that usually contains water, a sweetener, and a natural or artificial flavoring.<br>
-                In 1767, the first drinkable man-made carbonated water was created by Englishman Joseph Priestley.<br> Three years later, Swedish chemist Torbern Bergman invented <br>generating apparatus that made carbonated water from chalk using sulfuric acid.</p>
-            <button class="btn3" id="btn3">Buy Now</button>
-           </div>
-           <div class="image1">
-            
-           <a href=""> <img src="../tt1/7up2.png"></a>
-            
-           </div> 
-           <div class="image2">
-            <a href=""><img src="../tt1/cc.jpg"></a>
-           </div> 
-           <div class="image3">
-           <a href=""> <img src="../tt1/md.jpeg"></a>
-           </div> 
+<!DOCTYPE Html>
+<Html Lang="En">
+
+<Head>
+    <Meta Charset="UTF-8" />
+    <Meta Http-Equiv="X-UA-Compatible" Content="IE=Edge" />
+    <Meta Name="Viewport" Content="Width=Device-Width, Initial-Scale=1.0" />
+    <Title>Portfolio</Title>
+
+    
+
+    <Link Rel="Stylesheet" Href="style.Css" />
+</Head>
+
+<Body>
+    <Nav Id="Navbar" Class="Nav">
+        <Ul>
+            <Li>
+                <A Href="#Welcome-Section">About</A>
+            </Li>
+            <Li>
+                <A Href="#Projects">Work</A>
+            </Li>
+            <Li>
+                <A Href="#Contact">Contact</A>
+            </Li>
+        </Ul>
+    </Nav>
+
+
+    <!-- Second Section-->
+    <Section Id="Welcome-Section">
+        <div class="row">
            
-           <div class="image4">
-           <a href=""> <img src="../tt1/pp.jpeg"></a>
-           </div> 
-           <div class="sevenup">
-           <img src="../tt1/bg.jpg" alt="">
-           </div>
-        </div>
-    </div>  
-</body>
-</html>
+            <img class="images" src="../profile page/aish.jpg"/>
+         
+            <H1 >Hey I'm ASHWINI</H1>
+            <P><I>A Front-End Web Developer</I></P>
+     
+       
+</div>
+    </Section>
+    <Section Id="Projects" Class="Project-Section">
+        <H2 Class="Projects-Section-Header">My Project's</H2>
+
+        <Div Class="Projects-Grid">
+            <A Href="Https://Codepen.Io/ASHWINIPURIMETLA/Full/MWgjyKm" Target="_blank" Class="Project Project-Tile">
+                <Img Class="Project-Image"
+                    Src="../profile page/P1.jpg" Alt="Project" />
+                <P Class="Project-Title">
+
+                    LANDING  PAGE
+
+                </P>
+            </A>
+
+            <A Href="Https://Codepen.Io/ASHWINIPURIMETLA/Full/EYdXzme" Target="_blank" Class="Project Project-Tile">
+                <Img Class="Project-Image"
+                    Src="../profile page/p2.jpg"
+                    Alt="Project" />
+                <P Class="Project-Title">
+                     Portfolio WEBSITE
+
+                </P>
+            </A>
+
+           
+
+           
+
+            <A Href="Https://Codepen.Io/ASHWINIPURIMETLA/Full/BGwxqed" Target="_blank" Class="Project Project-Tile">
+                <Img Class="Project-Image" Src="../profile page/p3.jpg"
+                    Alt="Project" />
+                <P Class="Project-Title">
+
+                    TEMPERATURE CONVERTER
+
+                </P>
+            </A>
+
+        
+           
+
+
+        </Div>
+
+
+    </Section>
+
+
+    <!-- Third Section-->
+
+
+    <Section Id="Contact" Class="Contact-Section">
+        <Div Class="Contact-Section-Header">
+            <H2 Id="Con">Let's Work Together...</H2>
+            
+        </Div>
+        <Div Class="Form">
+            <Form Id="Form" Action="Mailto:example@Example.Com/Email-Submit">
+                <Input Type="Email" Id="Email" Placeholder="Your Email Address" Name="Email" Required /><Br>
+                <A Href="#" Target="_blank" Id="Submit" Class="Btn Contact-Submit">SUBMIT<I Class="Fas Fa-Arrow-left"></I></A>
+                    </Form>
+        </Div>
+       
+    </Section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <Footer>
+        <P1 Id="Foot" >
+            &Copy; 2023, Made With ❤ By
+            <A Id="Fot" Href="https://www.linkedin.com/in/ashwini-purimetla-ab2690210" Target="_blank">ASHWINI PURIMETLA
+            </A>
+        </P1>
+    </Footer>
+
+    <!-- END FOOTER SECTION -->
+
+</Body>
+
+</Html>
